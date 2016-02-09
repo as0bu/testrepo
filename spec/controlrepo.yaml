@@ -1,0 +1,15 @@
+classes:
+  - apache
+  - vim
+
+nodes:
+  - CentOS-6.6-64
+
+class_groups: {}
+
+node_groups: {}
+
+test_matrix:
+  - all_nodes:
+      classes: 'all_classes'
+      tests: 'spec'
