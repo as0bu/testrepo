@@ -22,3 +22,7 @@ mod 'canary',
 mod 'myapp',
   :git => 'https://github.com/WhatsARanjit/puppet-app_orch_demo.git',
   :ref => 'master'
+
+mod 'noop',
+  :git => 'https://github.com/trlinkin/trlinkin-noop.git',
+  :ref => 'master'
