@@ -7,6 +7,7 @@ mod 'puppetlabs/stdlib', '4.12.0'
 mod 'nanliu/staging', '1.0.3'
 mod 'puppetlabs/java', '1.6.0'
 mod 'puppetlabs/mysql'
+mod 'ghoneycutt/ssh'
 
 mod 'vim',
   :git => 'https://github.com/WhatsARanjit/puppet-vim.git'

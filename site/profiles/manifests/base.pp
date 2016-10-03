@@ -1,4 +1,7 @@
 class profiles::base {
+
+  include profiles::base::ssh
+  
   $myvar = ''
 
   if $myvar {
